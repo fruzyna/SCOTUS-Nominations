@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>SCOTUS Nominations</title>
+        <script src='https://d3js.org/d3.v4.min.js'></script>
+        <style type='text/css'>
+        #titlebar {
+            text-align: center;
+        }
+        #container {
+            overflow-y: hidden;
+            overflow-x: scroll;
+        }
+        </style>
+    </head>
+    <body>
+        <div id='titlebar'>
+            <h1>SCOTUS Nominations</h1>
+            <p>This webpage is an attempt to visualize the time needed to confirm/deny a US Supreme Court nomination based on the majority party in the US Senate at the time.
+                The data was collected and cleaned from <a href="https://en.wikipedia.org/wiki/List_of_nominations_to_the_Supreme_Court_of_the_United_States#Nominations">this table on Wikipedia</a>.
+                The radius of each circle is proportional to the number of days between the date the nomination was submitted and the date of the outcome.
+                The only exception to this is when the nomination lapses, in this case the circle defaults to the size of the largest.
+                Since some judges were nominated multiple times, due to their previous nomination lapsing or for a promotion, their nominations are uniquely identified by both their name and the number of days to determine an outcome.
+                The color of the circle determines the outcome:<br>
+                Confirmed - green, Declined - gray, Withdrawn - orange, Rejected - red, Postponed - yellow, Lapsed - black, Other - blue.
+            </p>
+        </div>
+        <div id="container"></div>
+    </body>
+
+    <!--
+        Script
+    -->
+    
+    <script>
+        function unique(list)
+        {
+            uniqueItems = [] 
+            list.forEach(element => {
+                if(!uniqueItems.includes(element)) uniqueItems.push(element);
+            });
+            return uniqueItems;
+        }
+
+        d3.select("#container").attr("width", window.width)
+
+        // load in data
+        d3.csv('nominations.csv', function(data)
+        {
+            // choose bounds of data
+            var names   = data.map(function(d) { return d.Name + " " + d.Days; });
+            var parties = data.map(function(d) { return d.Majority_Party; });
+            var maxDays = d3.max(data, function(d){ return d.Days; });
+
+            // determine the dimensions and margins of the graph
+            var margin  = {top: 20, right: 75, bottom: 20, left: 75}
+            var cHeight = 100;
+            var cWidth  = cHeight;
+            var height  = cHeight * unique(parties).length;
+            var width   = cWidth * unique(names).length;
+
+            // set the ranges
+            var x = d3.scaleBand()
+                    .range([width, 0])
+                    .padding(0.1);
+
+            var y = d3.scaleBand()
+                    .range([height, 0])
+                    .padding(0.1);
+
+            var r = d3.scaleLinear()
+                    .range([0, cHeight/2]);
+            
+            // append the svg object to the body of the page
+            // append a 'group' element to 'svg'
+            // moves the 'group' element to the top left margin
+            var svg = d3.select("#container").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // scale the range of the data in the domains
+            x.domain(names);
+            y.domain(parties)
+            r.domain([0, maxDays]);
+
+            // create the dots for the plot
+            svg.selectAll(".bar")
+                .data(data)
+                .enter().append("circle")
+                .attr("fill", function(d) {
+                    if(d.Outcome == "confirmed") {
+                        return "GREEN"
+                    }
+                    else if(d.Outcome == "declined") {
+                        return "GRAY"
+                    }
+                    else if(d.Outcome == "withdrawn") {
+                        return "ORANGE"
+                    }
+                    else if(d.Outcome == "rejected") {
+                        return "RED"
+                    }
+                    else if(d.Outcome == "postponed") {
+                        return "YELLOW"
+                    }
+                    else if(d.Outcome == "lapsed") {
+                        return "BLACK"
+                    }
+                    return "BLUE"
+                })
+                .attr("cx", function(d) { return x(d.Name + " " + d.Days) + cWidth/2; })
+                .attr("cy", function(d) { return y(d.Majority_Party) + cHeight/2; })
+                .attr("r", function(d) {
+                    if(d.Days == 0 && d.Outcome == "lapsed") return r(maxDays);
+                    else return r(d.Days)
+                });
+
+            // add the x Axis
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+            svg.append("g")
+                .call(d3.axisTop(x));
+
+            // add the y Axis
+            svg.append("g").call(d3.axisLeft(y));
+            svg.append("g")
+                .attr("transform", "translate(" + width + ", 0)")
+                .call(d3.axisRight(y));
+        })
+    </script>
+</html>

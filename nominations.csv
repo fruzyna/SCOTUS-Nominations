@@ -1,0 +1,164 @@
+Name,Note,Age,President,Party,Justice,Majority_Party,Date_Submitted,Outcome,Vote,Date,Days
+James Wilson,,47,Washington,None,In08ural,Pro Admin,09/24/1789,confirmed,,09/26/1789,2
+John Rutledge,,50,Washington,None,In08ural,Pro Admin,09/24/1789,confirmed,,09/26/1789,2
+John Jay,,43,Washington,None,In08ural,Pro Admin,09/24/1789,confirmed,,09/26/1789,2
+Robert H. Harrison,,44,Washington,None,In08ural,Pro Admin,09/24/1789,declined,,09/26/1789,2
+William Cushing,,57,Washington,None,In08ural,Pro Admin,09/24/1789,confirmed,,09/26/1789,2
+John Blair Jr.,,57,Washington,None,In08ural,Pro Admin,09/24/1789,confirmed,,09/26/1789,2
+James Iredell,,38,Washington,None,In08ural,Pro Admin,02/8/1790,confirmed,,02/10/1790,2
+Thomas Johnson,recess,58,Washington,None,J. Rutledge,Pro Admin,10/31/1791,confirmed,,11/7/1791,7
+William Paterson,,47,Washington,None,T. Johnson,Pro Admin,02/27/1793,withdrawn,,02/28/1793,1
+William Paterson,,47,Washington,None,T. Johnson,Pro Admin,03/4/1793,confirmed,,03/4/1793,0
+John Rutledge,recess,56,Washington,None,Jay,Federalist,12/10/1795,rejected,(10–14),12/15/1795,5
+William Cushing,promotion,63,Washington,None,Rutledge,Federalist,01/26/1796,declined,,01/27/1796,1
+Samuel Chase,,54,Washington,None,Blair,Federalist,01/26/1796,confirmed,,01/27/1796,1
+Oliver Ellsworth,,50,Washington,None,Rutledge,Federalist,03/3/1796,confirmed,(21–1),03/4/1796,1
+Bushrod Washington,recess,36,J. Adams,Federalist,Wilson,Federalist,12/19/1798,confirmed,,12/20/1798,1
+Alfred Moore,,44,J. Adams,Federalist,Iredell,Federalist,12/4/1799,confirmed,,12/10/1799,6
+John Jay,,55,J. Adams,Federalist,Ellsworth,Federalist,12/18/1800,declined,,12/19/1800,1
+John Marshall,,45,J. Adams,Federalist,Ellsworth,Federalist,01/20/1801,confirmed,,01/27/1801,7
+William Johnson,,32,Jefferson,Dem-Rep,Moore,Dem-Rep,03/22/1804,confirmed,,03/24/1804,2
+Henry B. Livingston,recess,49,Jefferson,Dem-Rep,Paterson,Dem-Rep,12/13/1806,confirmed,,12/17/1806,4
+Thomas Todd,,42,Jefferson,Dem-Rep,new seat,Dem-Rep,02/28/1807,confirmed,,03/2/1807,2
+Levi Lincoln Sr.,,61,Madison,Dem-Rep,W. Cushing,Dem-Rep,01/2/1811,declined,,01/3/1811,1
+Alexander Wolcott,,52,Madison,Dem-Rep,W. Cushing,Dem-Rep,02/4/1811,rejected,(9–24),02/13/1811,9
+John Quincy Adams,,43,Madison,Dem-Rep,W. Cushing,Dem-Rep,02/21/1811,declined,,02/22/1811,1
+Joseph Story,,32,Madison,Dem-Rep,W. Cushing,Dem-Rep,11/15/1811,confirmed,,11/18/1811,3
+Gabriel Duvall,,58,Madison,Dem-Rep,S. Chase,Dem-Rep,11/15/1811,confirmed,,11/18/1811,3
+Smith Thompson,recess,55,Monroe,Dem-Rep,Livingston,Dem-Rep,12/5/1823,confirmed,,12/9/1823,4
+Robert Trimble,,49,J. Q. Adams,Rep (A-C),Todd,Rep (J-C),04/11/1826,confirmed,(27–5),05/9/1826,28
+John J. Crittenden,,41,J. Q. Adams,Rep (A-C),Trimble,Rep (J-C),12/17/1828,postponed,,,57
+John McLean,,43,Jackson,Democratic,Trimble,Democratic,03/6/1829,confirmed,,03/7/1829,1
+Henry Baldwin,,49,Jackson,Democratic,Washington,Democratic,01/4/1830,confirmed,(41–2),01/6/1830,2
+James Moore Wayne,,57,Jackson,Democratic,W. Johnson,Natl Rep,01/6/1835,confirmed,,01/9/1835,3
+Roger B. Taney,,57,Jackson,Democratic,Duvall,Natl Rep,01/15/1835,postponed,,,47
+Roger B. Taney,,58,Jackson,Democratic,Marshall,Democratic,12/28/1835,confirmed,(29–15),03/15/1836,78
+Philip P. Barbour,,52,Jackson,Democratic,Duvall,Democratic,12/28/1835,confirmed,(30–11),03/15/1836,78
+William Smith,,74,Jackson,Democratic,new seat,Democratic,03/3/1837,declined,(23–18),03/8/1837,5
+John Catron,,51,Jackson,Democratic,new seat,Democratic,03/3/1837,confirmed,(28–15),03/8/1837,5
+John McKinley,recess,57,Van Buren,Democratic,new seat,Democratic,09/18/1837,confirmed,,09/25/1837,7
+Peter Vivian Daniel,,56,Van Buren,Democratic,Barbour,Democratic,02/26/1841,confirmed,(25–5),03/2/1841,4
+John C. Spencer,,56,Tyler,None,Thompson,Whig,01/8/1844,rejected,(21–26),01/31/1844,23
+Reuben Walworth,,55,Tyler,None,Thompson,Whig,03/13/1844,withdrawn,,06/17/1844,96
+Edward King,,50,Tyler,None,Baldwin,Whig,06/5/1844,postponed,,,10
+Reuben Walworth,,55,Tyler,None,Thompson,Whig,06/17/1844,lapsed,,,
+John C. Spencer,,56,Tyler,None,Thompson,Whig,06/17/1844,withdrawn,,06/17/1844,0
+Reuben Walworth,,56,Tyler,None,Thompson,Whig,12/4/1844,withdrawn,,02/6/1845,64
+Edward King,,50,Tyler,None,Baldwin,Whig,12/4/1844,withdrawn,,02/8/1845,66
+Samuel Nelson,,52,Tyler,None,Thompson,Whig,02/4/1845,confirmed,,02/14/1845,10
+John M. Read,,47,Tyler,None,Baldwin,Whig,02/7/1845,lapsed,,,
+George Woodward,,36,Polk,Democratic,Baldwin,Democratic,12/23/1845,rejected,(20–29),01/22/1846,30
+Levi Woodbury,recess,56,Polk,Democratic,Story,Democratic,12/23/1845,confirmed,,01/3/1846,11
+Robert Cooper Grier,,52,Polk,Democratic,Baldwin,Democratic,08/3/1846,confirmed,,08/4/1846,1
+Benjamin R. Curtis,recess,42,Fillmore,Whig,Woodbury,Democratic,12/11/1851,confirmed,,12/23/1851,12
+Edward A. Bradford,,38,Fillmore,Whig,McKinley,Democratic,08/16/1852,lapsed,,,
+George E. Badger,,57,Fillmore,Whig,McKinley,Democratic,01/3/1853,withdrawn,,02/14/1853,43
+William C. Micou,,46,Fillmore,Whig,McKinley,Democratic,02/14/1853,lapsed,,,
+John A. Campbell,,41,Pierce,Democratic,McKinley,Democratic,03/21/1853,confirmed,,03/22/1853,1
+Nathan Clifford,,54,Buchanan,Democratic,Curtis,Democratic,12/9/1857,confirmed,(26–23),01/12/1858,34
+Jeremiah S. Black,,51,Buchanan,Democratic,Daniel,Democratic,02/5/1861,lapsed,,,
+Noah Haynes Swayne,,57,Lincoln,Republican,McLean,Republican,01/21/1862,confirmed,(38–1),01/24/1862,3
+Samuel Freeman Miller,,46,Lincoln,Republican,Daniel,Republican,07/16/1862,confirmed,,07/16/1862,0
+David Davis,recess,47,Lincoln,Republican,Campbell,Republican,12/1/1862,confirmed,,12/8/1862,7
+Stephen Johnson Field,,46,Lincoln,Republican,new seat,Republican,03/6/1863,confirmed,,03/10/1863,4
+Salmon P. Chase,,56,Lincoln,Republican,Taney,Republican,12/6/1864,confirmed,,12/6/1864,0
+Henry Stanbery,,63,A. Johnson,Natl Union,Catron,Republican,04/16/1866,lapsed,,,
+Ebenezer R. Hoar,,53,Grant,Republican,new seat,Republican,12/14/1869,rejected,(24–33),02/3/1870,51
+Edwin Stanton,,55,Grant,Republican,Grier,Republican,12/20/1869,died,(46–11),12/20/1869,0
+William Strong,,61,Grant,Republican,Grier,Republican,02/7/1870,confirmed,,02/18/1870,1
+Joseph P. Bradley,,56,Grant,Republican,new seat,Republican,02/7/1870,confirmed,(46–9),03/21/1870,42
+Ward Hunt,,62,Grant,Republican,Nelson,Republican,12/3/1872,confirmed,,12/11/1872,8
+George Henry Williams,,50,Grant,Republican,S. P. Chase,Republican,12/1/1873,withdrawn,,01/8/1874,38
+Caleb Cushing,,73,Grant,Republican,S. P. Chase,Republican,01/9/1874,withdrawn,,01/13/1874,4
+Morrison Waite,,57,Grant,Republican,S. P. Chase,Republican,01/19/1874,confirmed,(63–0),01/21/1874,2
+John Marshall Harlan,,44,Hayes,Republican,Davis,Republican,10/16/1877,confirmed,,11/29/1877,44
+William Burnham Woods,,56,Hayes,Republican,Strong,Democratic,12/15/1880,confirmed,(39–8),12/21/1880,6
+Stanley Matthews,,56,Hayes,Republican,Swayne,Democratic,01/26/1881,lapsed,,,
+Stanley Matthews,,56,Garfield,Republican,Swayne,Split,03/14/1881,confirmed,(24–23),05/12/1881,59
+Horace Gray,,53,Arthur,Republican,Clifford,Split,12/19/1881,confirmed,(51–5),12/20/1881,1
+Roscoe Conkling,,52,Arthur,Republican,Hunt,Split,02/24/1882,declined,(39–12),03/2/1882,6
+Samuel Blatchford,,62,Arthur,Republican,Hunt,Split,03/13/1882,confirmed,,03/22/1882,9
+Lucius Q. C. Lamar II,,62,Cleveland,Democratic,Woods,Republican,12/6/1887,confirmed,(32–28),01/16/1888,41
+Melville Fuller,,55,Cleveland,Democratic,Waite,Republican,04/30/1888,confirmed,(41–20),07/20/1888,81
+David Josiah Brewer,,52,B. Harrison,Republican,Matthews,Republican,12/4/1889,confirmed,(53–11),12/18/1889,14
+Henry Billings Brown,,54,B. Harrison,Republican,Miller,Republican,12/23/1890,confirmed,,12/29/1890,6
+George Shiras Jr.,,60,B. Harrison,Republican,Bradley,Republican,07/19/1892,confirmed,,07/26/1892,7
+Howell E. Jackson,,60,B. Harrison,Republican,L. Lamar,Republican,02/2/1893,confirmed,,02/18/1893,16
+William B. Hornblower,,42,Cleveland,Democratic,Blatchford,Democratic,09/19/1893,lapsed,,,
+William B. Hornblower,,42,Cleveland,Democratic,Blatchford,Democratic,12/5/1893,rejected,(24–30),01/15/1894,41
+Wheeler H. Peckham,,61,Cleveland,Democratic,Blatchford,Democratic,01/22/1894,rejected,(32–41),02/16/1894,25
+Edward D. White,,48,Cleveland,Democratic,Blatchford,Democratic,02/19/1894,confirmed,,02/19/1894,0
+Rufus W. Peckham,,57,Cleveland,Democratic,H. Jackson,Republican,12/3/1895,confirmed,,12/9/1895,6
+Joseph McKenna,,54,McKinley,Republican,Field,Republican,12/16/1897,confirmed,,01/21/1898,36
+Oliver W. Holmes Jr.,,61,T. Roosevelt,Republican,Gray,Republican,12/2/1902,confirmed,,12/4/1902,2
+William R. Day,,53,T. Roosevelt,Republican,Shiras,Republican,02/19/1903,confirmed,,02/23/1903,4
+William Henry Moody,,52,T. Roosevelt,Republican,Brown,Republican,12/3/1906,confirmed,,12/12/1906,9
+Horace Harmon Lurton,,65,Taft,Republican,R. Peckham,Republican,12/13/1909,confirmed,,12/20/1909,7
+Charles Evans Hughes,,48,Taft,Republican,Brewer,Republican,04/25/1910,confirmed,,05/2/1910,7
+Edward D. White,promotion,65,Taft,Republican,Fuller,Republican,12/12/1910,confirmed,,12/12/1910,0
+Willis Van Devanter,,51,Taft,Republican,E. D. White,Republican,12/12/1910,confirmed,,12/15/1910,3
+Joseph Rucker Lamar,,53,Taft,Republican,Moody,Republican,12/12/1910,confirmed,,12/15/1910,3
+Mahlon Pitney,,54,Taft,Republican,J. Harlan,Republican,02/19/1912,confirmed,(50–26),03/13/1912,23
+James C. McReynolds,,52,Wilson,Democratic,Lurton,Democratic,08/19/1914,confirmed,(44–6),08/29/1914,10
+Louis Brandeis,,59,Wilson,Democratic,J. Lamar,Democratic,01/28/1916,confirmed,(47–22),06/1/1916,125
+John Hessin Clarke,,58,Wilson,Democratic,Hughes,Democratic,07/14/1916,confirmed,,07/24/1916,10
+William Howard Taft,,63,Harding,Republican,E. D. White,Republican,06/30/1921,confirmed,,06/30/1921,0
+George Sutherland,,60,Harding,Republican,Clarke,Republican,09/5/1922,confirmed,,09/5/1922,0
+Pierce Butler,,56,Harding,Republican,Day,Republican,11/21/1922,lapsed,,,
+Pierce Butler,,56,Harding,Republican,Day,Republican,12/5/1922,confirmed,(61–8),12/21/1922,16
+Edward Terry Sanford,,57,Harding,Republican,Pitney,Republican,01/24/1923,confirmed,,01/29/1923,5
+Harlan F. Stone,,52,Coolidge,Republican,McKenna,Republican,01/5/1925,confirmed,(71–6),02/5/1925,31
+Charles Evans Hughes,,67,Hoover,Republican,Taft,Republican,02/3/1930,confirmed,(52–26),02/13/1930,10
+John J. Parker,,44,Hoover,Republican,Sanford,Republican,03/21/1930,rejected,(39–41),05/7/1930,47
+Owen Roberts,,55,Hoover,Republican,Sanford,Republican,05/9/1930,confirmed,,05/20/1930,11
+Benjamin N. Cardozo,,61,Hoover,Republican,Holmes,Republican,02/15/1932,confirmed,,02/24/1932,9
+Hugo Black,,51,F. D. Roosevelt,Democratic,Van Devanter,Democratic,08/12/1937,confirmed,(63–16),08/17/1937,5
+Stanley Forman Reed,,53,F. D. Roosevelt,Democratic,Sutherland,Democratic,01/15/1938,confirmed,,01/25/1938,10
+Felix Frankfurter,,56,F. D. Roosevelt,Democratic,Cardozo,Democratic,01/5/1939,confirmed,,01/17/1939,12
+William O. Douglas,,40,F. D. Roosevelt,Democratic,Brandeis,Democratic,03/20/1939,confirmed,(62–4),04/4/1939,15
+Frank Murphy,,49,F. D. Roosevelt,Democratic,Butler,Democratic,01/4/1940,confirmed,,01/16/1940,14
+Harlan F. Stone,promotion,68,F. D. Roosevelt,Democratic,Hughes,Democratic,06/12/1941,confirmed,,06/27/1941,15
+Robert H. Jackson,,49,F. D. Roosevelt,Democratic,Stone,Democratic,06/12/1941,confirmed,,07/7/1941,25
+James F. Byrnes,,59,F. D. Roosevelt,Democratic,McReynolds,Democratic,06/12/1941,confirmed,,06/12/1941,0
+Wiley Blount Rutledge,,48,F. D. Roosevelt,Democratic,Byrnes,Democratic,01/11/1943,confirmed,,02/8/1943,28
+Harold Hitz Burton,,57,Truman,Democratic,O. Roberts,Democratic,09/19/1945,confirmed,,09/19/1945,0
+Fred M. Vinson,,56,Truman,Democratic,Stone,Democratic,06/6/1946,confirmed,,06/20/1946,14
+Tom C. Clark,,49,Truman,Democratic,Murphy,Democratic,08/2/1949,confirmed,(73–8),08/18/1949,16
+Sherman Minton,,58,Truman,Democratic,W. Rutledge,Democratic,09/15/1949,confirmed,(48–16),10/4/1949,19
+Earl Warren,recess,62,Eisenhower,Republican,Vinson,Republican,01/11/1954,confirmed,,03/1/1954,49
+John Marshall Harlan II,,55,Eisenhower,Republican,R. Jackson,Republican,11/9/1954,lapsed,,,
+John Marshall Harlan II,,55,Eisenhower,Republican,R. Jackson,Republican,01/10/1955,confirmed,(71–11),03/16/1955,65
+William J. Brennan Jr.,recess,50,Eisenhower,Republican,Minton,Democratic,01/14/1957,confirmed,,03/19/1957,64
+Charles Evans Whittaker,,56,Eisenhower,Republican,Reed,Democratic,03/2/1957,confirmed,,03/19/1957,17
+Potter Stewart,recess,43,Eisenhower,Republican,Burton,Democratic,01/17/1959,confirmed,(70–17),05/5/1959,108
+Byron White,,44,Kennedy,Democratic,Whittaker,Democratic,04/3/1962,confirmed,,04/11/1962,8
+Arthur Goldberg,,54,Kennedy,Democratic,Frankfurter,Democratic,08/31/1962,confirmed,,09/25/1962,25
+Abe Fortas,,55,L. Johnson,Democratic,Goldberg,Democratic,07/28/1965,confirmed,,08/11/1965,14
+Thurgood Marshall,,58,L. Johnson,Democratic,Clark,Democratic,06/13/1967,confirmed,(69–11),08/30/1967,78
+Homer Thornberry,,59,L. Johnson,Democratic,Fortas,Democratic,06/26/1968,withdrawn,,10/2/1968,98
+Abe Fortas,promotion,58,L. Johnson,Democratic,Warren,Democratic,06/26/1968,withdrawn,,10/2/1968,98
+Warren E. Burger,,61,Nixon,Republican,Warren,Democratic,05/23/1969,confirmed,(74–3),06/9/1969,17
+Clement Haynsworth,,56,Nixon,Republican,Fortas,Democratic,08/21/1969,rejected,(45–55),11/21/1969,92
+G. Harrold Carswell,,50,Nixon,Republican,Fortas,Democratic,01/19/1970,rejected,(45–51),04/8/1970,79
+Harry Blackmun,,61,Nixon,Republican,Fortas,Democratic,04/15/1970,confirmed,(94–0),05/12/1970,27
+William Rehnquist,,47,Nixon,Republican,J. Harlan II,Democratic,10/22/1971,confirmed,(68–26),12/10/1971,49
+Lewis F. Powell Jr.,,64,Nixon,Republican,H. Black,Democratic,10/22/1971,confirmed,(89–1),12/6/1971,45
+John Paul Stevens,,55,Ford,Republican,Douglas,Democratic,11/28/1975,confirmed,(98–0),12/17/1975,19
+Sandra Day O'Connor,,51,Reagan,Republican,Stewart,Republican,08/19/1981,confirmed,(99–0),09/21/1981,33
+William Rehnquist,promotion,61,Reagan,Republican,Burger,Republican,06/20/1986,confirmed,(65–33),09/17/1986,89
+Antonin Scalia,,50,Reagan,Republican,Rehnquist,Republican,06/24/1986,confirmed,(98–0),09/17/1986,85
+Robert Bork,,60,Reagan,Republican,Powell,Democratic,07/1/1987,rejected,(42–58),10/23/1987,114
+Anthony Kennedy,,51,Reagan,Republican,Powell,Democratic,11/30/1987,confirmed,(97–0),02/3/1988,65
+David Souter,,50,G. H. W. Bush,Republican,Brennan,Democratic,07/25/1990,confirmed,(90–9),10/2/1990,69
+Clarence Thomas,,43,G. H. W. Bush,Republican,T. Marshall,Democratic,07/8/1991,confirmed,(52–48),10/15/1991,99
+Ruth Bader Ginsburg,,60,Clinton,Democratic,B. White,Democratic,06/14/1993,confirmed,(96–3),08/3/1993,50
+Stephen Breyer,,55,Clinton,Democratic,Blackmun,Democratic,05/17/1994,confirmed,(87–9),07/29/1994,73
+John Roberts,,50,G. W. Bush,Republican,O'Connor,Republican,07/29/2005,withdrawn,,09/6/2005,39
+John Roberts,,50,G. W. Bush,Republican,Rehnquist,Republican,09/6/2005,confirmed,(78–22),09/29/2005,23
+Harriet Miers,,60,G. W. Bush,Republican,O'Connor,Republican,10/7/2005,withdrawn,,10/28/2005,21
+Samuel Alito,,55,G. W. Bush,Republican,O'Connor,Republican,11/10/2005,confirmed,(58–42),01/31/2006,82
+Sonia Sotomayor,,54,Obama,Democratic,Souter,Democratic,06/1/2009,confirmed,(68–31),08/6/2009,66
+Elena Kagan,,50,Obama,Democratic,Stevens,Democratic,05/10/2010,confirmed,(63–37),08/5/2010,87
+Merrick Garland,,63,Obama,Democratic,Scalia,Republican,03/16/2016,lapsed,,,
+Neil Gorsuch,,49,Trump,Republican,Scalia,Republican,02/1/2017,confirmed,(54–45),04/7/2017,65
+Brett Kavanaugh,,53,Trump,Republican,Kennedy,Republican,07/10/2018,confirmed,(50–48),10/6/2018,88
