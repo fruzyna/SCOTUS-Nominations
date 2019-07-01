@@ -11,4 +11,4 @@ The color of the circle determines the outcome:
 - Rejected - red
 - Postponed - yellow
 - Lapsed - black
-- Other - blue.
+- Other - blue

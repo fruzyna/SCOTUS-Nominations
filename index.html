@@ -12,6 +12,15 @@
             overflow-y: hidden;
             overflow-x: scroll;
         }
+        div.tooltip {	
+            position: absolute;
+            text-align: center;
+            padding: 3px;
+            font: 12px sans-serif;
+            background: lightgrey;
+            border-radius: 8px;
+            pointer-events: none;
+        }
         </style>
     </head>
     <body>
@@ -43,7 +52,13 @@
             return uniqueItems;
         }
 
+        // set container width to page width
         d3.select("#container").attr("width", window.width)
+
+        // create tooltip
+        var tip = d3.select("body").append("div")	
+            .attr("class", "tooltip")				
+            .style("opacity", 0);
 
         // load in data
         d3.csv('nominations.csv', function(data)
@@ -116,6 +131,23 @@
                 .attr("r", function(d) {
                     if(d.Days == 0 && d.Outcome == "lapsed") return r(maxDays);
                     else return r(d.Days)
+                })
+                .on("mouseover", function(d) {
+                    tip.transition()
+                        .duration(200)
+                        .style("opacity", .9);
+                    var toolTip = d.Name + "<br>President: " + d.Party + "<br>Senate: " + d.Majority_Party + "<br>Nominated: " + d.Date_Submitted;
+                    if(d.Date) toolTip += "<br>Outcome: " + d.Date + "<br>Days: " + d.Days;
+                    toolTip += "<br>" + d.Outcome.charAt(0).toUpperCase() + d.Outcome.slice(1);
+                    if(d.Vote) toolTip += ": " + d.Vote;
+                    tip.html(toolTip)
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+                    })
+                .on("mouseout", function(d) {		
+                    tip.transition()		
+                        .duration(500)		
+                        .style("opacity", 0);	
                 });
 
             // add the x Axis
